@@ -1,0 +1,27 @@
+{
+  "name": "todo_list_server",
+  "version": "1.0.0",
+  "description": "A little express server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukaspatschil/todo_list_server.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Lukas Spatschil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukaspatschil/todo_list_server/issues"
+  },
+  "homepage": "https://github.com/lukaspatschil/todo_list_server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.6"
+  }
+}
