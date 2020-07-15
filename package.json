@@ -4,14 +4,18 @@
   "description": "A little express server",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node --insecure-http-parser ./server.js 3000"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lukaspatschil/todo_list_server.git"
   },
   "keywords": [
-    "todo"
+    "todo",
+    "express",
+    "nodejs",
+    "backend"
   ],
   "author": "Lukas Spatschil",
   "license": "ISC",
@@ -20,8 +24,7 @@
   },
   "homepage": "https://github.com/lukaspatschil/todo_list_server#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "tslint": "^6.1.2",
-    "typescript": "^3.9.6"
+    "eslint": "^7.4.0",
+    "express": "^4.17.1"
   }
 }
