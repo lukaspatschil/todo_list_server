@@ -18,7 +18,7 @@ todos.push({
     id: 0,
     name: 'New todo', 
     description: 'This is a new todo',
-    completed: false
+    complete: false
 });
 
 // get the todo
@@ -42,7 +42,7 @@ routes.post('/', validate(todoSchema, {}, {}), (req, res) => {
         id: todos.length,
         name: req.body.name,
         description: req.body.description,
-        completed: false
+        complete: false
     };
 
     todos.push(todo);
@@ -61,7 +61,7 @@ routes.post('/complete', (req, res) => {
         return;
     }
 
-    todos[index].completed = !todos[index].completed;
+    todos[index].complete = !todos[index].complete;
     res.send(todos[index]);
 })
 
