@@ -1,10 +1,9 @@
 {
   "name": "todo_list_server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A little express server",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "test",
     "start": "node --insecure-http-parser ./server.js 3000"
   },
   "repository": {
