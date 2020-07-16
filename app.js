@@ -7,7 +7,7 @@ const todos = require('./routes/todos');
 const app = express();
 app.use(express.json());
 
-app.use('/', todos);
+app.use('/todo', todos);
 
 app.use((req, res, next) => {
     res.sendStatus(404);
